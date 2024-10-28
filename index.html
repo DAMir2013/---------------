@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Dice Poker</title>
+</head>
+
+<body>
+    <h1>DICE POKER</h1>
+    <div class="container">
+        <div class="playingField">
+            <h2>The playing field</h2>
+            <div class="playingContainer">
+                <div class="diceContainer">
+                    <img src="./image/1.png" alt="dice" class="imgDice" id="imgDice1">
+                    <img src="./image/2.png" alt="dice" class="imgDice" id="imgDice2">
+                    <img src="./image/3.png" alt="dice" class="imgDice" id="imgDice3">
+                    <img src="./image/4.png" alt="dice" class="imgDice" id="imgDice4">
+                    <img src="./image/5.png" alt="dice" class="imgDice" id="imgDice5">
+                </div>
+            </div>
+            <div class="rollingDiceContainer">
+                <div id="rollingDice">
+                    <input type="checkbox" name="all" class="checkBox" id="checkBoxId1" />
+                    <input type="checkbox" name="all" class="checkBox" id="checkBoxId2" />
+                    <input type="checkbox" name="all" class="checkBox" id="checkBoxId3" />
+                    <input type="checkbox" name="all" class="checkBox" id="checkBoxId4" />
+                    <input type="checkbox" name="all" class="checkBox" id="checkBoxId5" />
+                </div>
+                <h2>Mark the dice you want to roll and click button "Rolling Dice" or the leave button</h2>
+                <div class="rollingLeaveButtons">
+                    <input type="button" value="Rolling Dice" class="buttonsRollLeave" id="rollButton">
+                    <input type="button" value="Leave" class="buttonsRollLeave" id="leaveButton">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="controlPanel">
+            <h2>Control and information panel</h2>
+            <button id="gameButton">Game</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./javaScript/main.js"></script>
+</body>
+
+</html>
